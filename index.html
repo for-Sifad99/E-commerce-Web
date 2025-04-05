@@ -17,10 +17,10 @@
 
 <body>
   <section id="header" style="box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);"
-    class="flex items-center justify-between py-5 px-20 bg-[#E3E6F3] z-[999] sticky top-0 left-0 ">
+    class="flex items-center justify-between py-5 px-2 lg:px-20 sm:px-14 bg-[#E3E6F3] z-[999] sticky top-0 left-0 ">
     <a href="#"><img src="./img/logo.png" class="logo" alt=""></img></a>
     <div>
-      <ul id="navbar" class="lg:p-0 p-[80px_0px_10px_0px] flex flex-col items-start justify-start fixed h-[100vh] w-[40%] bg-[#E3E6F3] text-base font-semibold text-[#1a1a1a] transition lg:bg-none lg:static md:fixed lg:flex-row md:flex-col lg:items-center lg:justify-between md:items-start md:justify-start top-0 right-[-40%] lg:h-auto lg:w-auto">
+      <ul id="navbar" class="lg:p-0 p-[80px_0px_10px_0px] flex flex-col items-start justify-start fixed h-[100vh] w-[45%] bg-[#E3E6F3] text-base font-semibold text-[#1a1a1a] transition lg:bg-none lg:static md:fixed lg:flex-row md:flex-col lg:items-center lg:justify-between md:items-start md:justify-start top-0 right-[-45%] lg:h-auto lg:w-auto">
 
         <li class="mb-6 transition duration-300 ease-in-out lg:mb-0">
           <a class="active" href="index.html">Home</a></li>
@@ -56,39 +56,57 @@
     <p>Save more with coupons & up to 70% off!</p>
     <button class="flex justify-start bg-[url(./img/button.png)] bg-no-repeat bg-transparent text-[#088178] pt-4 pb-3 pl-17 text-[15px] font-bold cursor-pointer">Shop Now</button>
   </section>
-  
-  <section class="grid flex-wrap justify-center grid-cols-1 lg:flex lg:justify-between lg:py-10 lg:px-20">
-    <div id="fe-box" class="lg:w-[13vw] lg:mx-0 mx-auto w-[180px] text-center py-8 px-4 border border-solid border-[#cce7d0] rounded-xl">
-      <img class="w-full mb-[10px]" src="./img/features/f1.png" alt="">
-      <h6 class="inline-block px-[9px] pt-2 pb-[6px] text-[#088178] bg-[#d1e8f2] rounded-lg"><span class="leading-none">Free Shipping</span></h6>
+
+  <section class="flex flex-wrap justify-center px-6 py-16 gap-x-6 gap-y-6">
+    <div id="fe-box" class="w-[180px] text-center py-8 px-4 border border-[#cce7d0] rounded-xl">
+      <img class="w-full mb-2" src="./img/features/f1.png" alt="">
+      <h6 class="inline-block px-3 pt-2 pb-1 text-[#088178] bg-[#fddde4] rounded-lg">
+        <span class="text-sm leading-none">Free Shipping</span>
+      </h6>
     </div>
-    <div id="fe-box" class="lg:w-[13vw] w-[180px] mx-auto text-center py-8 px-4 border border-solid border-[#cce7d0] rounded-xl">
-      <img class="w-full mb-[10px]" src="./img/features/f2.png" alt="">
-      <h6 class="inline-block px-[9px] pt-2 pb-[6px] text-[#088178] bg-[#fddde4] rounded-lg"><span class="leading-none">Online Order</span></h6>
+
+    <div id="fe-box" class="w-[180px] text-center py-8 px-4 border border-[#cce7d0] rounded-xl">
+      <img class="w-full mb-2" src="./img/features/f2.png" alt="">
+      <h6 class="inline-block px-3 pt-2 pb-1 text-[#088178] bg-[#fddde4] rounded-lg">
+        <span class="text-sm leading-none">Online Order</span>
+      </h6>
     </div>
-    <div id="fe-box" class="lg:w-[13vw] w-[180px] mx-auto text-center py-8 px-4 border border-solid border-[#cce7d0] rounded-xl">
-      <img class="w-full mb-[10px]" src="./img/features/f3.png" alt="">
-      <h6 class="inline-block px-[9px] pt-2 pb-[6px] text-[#088178] bg-[#cdebbc] rounded-lg"><span class="leading-none">Save Money</span></h6>
+
+    <div id="fe-box" class="w-[180px] text-center py-8 px-4 border border-[#cce7d0] rounded-xl">
+      <img class="w-full mb-2" src="./img/features/f3.png" alt="">
+      <h6 class="inline-block px-3 pt-2 pb-1 text-[#088178] bg-[#cdebbc] rounded-lg">
+        <span class="text-sm leading-none">Save Money</span>
+      </h6>
     </div>
-    <div id="fe-box" class="lg:w-[13vw] w-[180px] mx-auto text-center py-8 px-4 border border-solid border-[#cce7d0] rounded-xl">
-      <img class="w-full mb-[10px]" src="./img/features/f4.png" alt="">
-      <h6 class="inline-block px-[9px] pt-2 pb-[6px] text-[#088178] bg-[#cdd4f8] rounded-lg"><span class="leading-none">Promotions</span></h6>
+
+    <div id="fe-box" class="w-[180px] text-center py-8 px-4 border border-[#cce7d0] rounded-xl">
+      <img class="w-full mb-2" src="./img/features/f4.png" alt="">
+      <h6 class="inline-block px-3 pt-2 pb-1 text-[#088178] bg-[#cdd4f8] rounded-lg">
+        <span class="text-sm leading-none">Promotions</span>
+      </h6>
     </div>
-    <div id="fe-box" class="lg:w-[13vw] w-[180px] mx-auto text-center py-8 px-4 border border-solid border-[#cce7d0] rounded-xl">
-      <img class="w-full mb-[10px]" src="./img/features/f5.png" alt="">
-      <h6 class="inline-block px-[9px] pt-2 pb-[6px] text-[#088178] bg-[#e7e2f7] rounded-lg"><span class="leading-none">Happy sell</span></h6>
+
+    <div id="fe-box" class="w-[180px] text-center py-8 px-4 border border-[#cce7d0] rounded-xl">
+      <img class="w-full mb-2" src="./img/features/f5.png" alt="">
+      <h6 class="inline-block px-3 pt-2 pb-1 text-[#088178] bg-[#e7e2f7] rounded-lg">
+        <span class="text-sm leading-none">Happy Sell</span>
+      </h6>
     </div>
-    <div id="fe-box" class="lg:w-[13vw] w-[180px] mx-auto text-center py-8 px-4 border border-solid border-[#cce7d0] rounded-xl">
-      <img class="w-full mb-[10px]" src="./img/features/f6.png" alt="">
-      <h6 class="inline-block px-[9px] pt-2 pb-[6px] text-[#088178] bg-[#fff2e5] rounded-lg"><span class="leading-none">F24/7 Support</span></h6>
+
+    <div id="fe-box" class="w-[180px] text-center py-8 px-4 border border-[#cce7d0] rounded-xl">
+      <img class="w-full mb-2" src="./img/features/f6.png" alt="">
+      <h6 class="inline-block px-3 pt-2 pb-1 text-[#088178] bg-[#fff2e5] rounded-lg">
+        <span class="text-sm leading-none">24/7 Support</span>
+      </h6>
     </div>
+
   </section>
   
-  <section id="product1" class="px-20 py-10">
+  <section id="product2" class="px-10 py-10 lg:px-20 md:px-10 xl:px-20">
     <h2 class="font-bold text-center">Featured Products</h2>
-    <p class="text-center">Summer Collection New Modern Design</p>
-    <div id="pro-container" class="flex flex-wrap items-center justify-between">
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+    <p class="px-8 text-center">Summer Collection New Modern Design</p>
+    <div id="pro1-container" class="flex flex-wrap justify-center gap-x-6 gap-y-6">
+      <div id="pro1" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/f1.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -102,9 +120,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/f2.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -118,9 +136,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/f3.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -134,9 +152,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/f4.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -150,9 +168,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/f5.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -166,9 +184,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/f6.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -182,9 +200,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out text-center">
         <img class="w-full rounded-2xl" src="./img/products/f7.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -198,9 +216,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out text-center">
         <img class="w-full rounded-2xl" src="./img/products/f8.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -212,24 +230,24 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
+          <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px]">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
     </div>
   </section>
-  
+
   <section id="banner" class="flex flex-col items-center justify-center text-center my-10 bg-[url(./img/banner/b2.jpg)] w-full h-[40vh] bg-cover bg-center">
     <h4 class="font-bold"><span class="text-base text-[#fff]">Repair Services</span></h4>
     <h2 class=" py-[10px] font-bold"><span class="text-3xl text-[#fff]">Up to <span class="text-[#ef3636]">70% off</span> - All t-Shirts & Accessories</span></h2>
     <button class="text-sm font-semibold py-4 px-7 text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-[#088178] rounded-[4px]  cursor-pointer transition duration-200 ease-in-out">Explore More</button>
   </section>
   
-  <section id="product1" class="px-20 py-10">
-    <h2 class="font-bold text-center">New Arrivals</h2>
-    <p class="text-center">Summer Collection New Modern Design</p>
-    <div id="pro-container" class="flex flex-wrap items-center justify-between">
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+  <section id="product2" class="px-10 py-10 lg:px-20 md:px-10 xl:px-20">
+    <h2 class="font-bold text-center ">New Arrivals</h2>
+    <p class="px-8 text-center">Summer Collection New Modern Design</p>
+    <div id="pro2-container" class="flex flex-wrap justify-center gap-x-6 gap-y-6">
+      <div id="pro2" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n1.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -243,9 +261,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n2.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -259,9 +277,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1  w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n3.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -275,9 +293,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n4.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -291,9 +309,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n5.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -307,9 +325,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n6.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -323,9 +341,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n7.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -339,9 +357,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-[12px] border-1 border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out my-4">
+      <div id="pro" class="relative w-[23%] min-w-[250px] py-[10px] px-3 border border-solid border-[#cce7d0] rounded-3xl transition duration-400 ease-in-out">
         <img class="w-full rounded-2xl" src="./img/products/n8.jpg" alt="">
         <div class="py-[10px]">
           <span class="text-xs text-[#606063]">adidas</span>
@@ -355,9 +373,9 @@
           </div>
           <h4 class="pt-[2px] font-bold"><span class="text-[#088178] text-[15px] ">$78</span></h4>
         </div>
-        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-[40px] h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
+        <i class="fa-solid fa-cart-shopping text-center pb-7 pt-3 px-1 w-10 h-[30px] bg-[#e8f6ea] font-medium text-[#088178] border border-solid border-[#cce7d0] rounded-full absolute bottom-5 right-[12px]"></i>
       </div>
-    </div>
+  </div>
   </section>
 
   <section id="sm-banner" class="flex flex-wrap justify-between px-20 py-10">
@@ -411,7 +429,7 @@
     </div>
   </section>
 
-  <footer id="footer" class="flex flex-wrap justify-between px-0 py-10 lg:px-20">
+  <footer id="footer" class="flex flex-col flex-wrap justify-between px-20 py-10 lg:flex-row">
     <div class="flex flex-col items-start">
       <img class="mb-[30px]" src="./img/logo.png" alt="">
       <h4 class="mb-3 font-extrabold"><span class="text-base">Contact</span></h4>
@@ -448,7 +466,7 @@
     <div class="flex flex-col items-start">
       <h4 class="mb-3 font-extrabold"><span class="text-base">Install App</span></h4>
       <h5><span class="text-[13px]">From App Store or Google Play</span></h5>
-      <div class="flex justify-between gap-1 mt-3 mb-4">
+      <div class="flex flex-col justify-between gap-1 mt-3 mb-4 lg:flex-row">
         <img class="border border-solid border-[#000] rounded-[6px] cursor-pointer" src="./img/pay/app.jpg" alt="">
         <img class="border border-solid border-[#000] rounded-[6px] cursor-pointer" src="./img/pay/play.jpg" alt="">
       </div>
@@ -464,4 +482,4 @@
   <script src="./script/script.js"></script>
 </body>
 
-</html>
+</html> 
