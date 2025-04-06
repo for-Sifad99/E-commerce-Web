@@ -1,40 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 * {
   font-family: 'Spartan', sans-serif;
 }
 
-h1 {
+/* h1 {
+  text-[#222] text-5xl leading-[64px]
   font-size: 50px;
   line-height: 64px;
   color: #222;
-}
+} */
 
-h2 {
+/* h2 {
+text-[46px] text-[#222] leading-[54px]
   font-size: 46px;
   line-height: 54px;
   color: #222;
-}
+} */
 
-h4 {
+/* h4 {
+text-[20px] text-[#222] font-semibold
   font-size: 20px;
   color: #222;
-}
+} */
 
-h6 {
+/* h6 {
+  text-xs font-bold
   font-weight: 700;
   font-size: 12px;
-}
+} */
 
-p {
+/* p {
+  text-base text-[#465b52] mt-[15px] mb-5
   font-size: 16px;
   color: #465b52;
   margin: 15px 0 20px 0;
-}
+} */
 
 /* 
 text-sm font-semibold py-4 px-7 text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-[#088178] rounded-[4px]  cursor-pointer transition duration-200 ease-in-out */
-button.normal{
+
+/* button.normal{
   font-size: 14px;
   font-weight: semibold;
   padding: 15px 30px;
@@ -42,16 +46,34 @@ button.normal{
   background-color: #fff;
   border-radius: 4px;
   cursor: pointer;
-  transition: 0.2s;   /*transition duration-200 ease-in-out */
+  transition: 0.2s;   /*transition duration-200 ease-in-out
 }
+ */
 
+/* 
 body {
   width: 100%;
+} */
+
+/* #navbar li {
+  padding: 0 20px;
+  position: relative;
+} */
+
+#header {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
 }
 
 #navbar li {
-  padding: 0 20px;
   position: relative;
+  transition: 0.4s case;
+}
+
+#mobile {
+  display: none;
+}
+#close {
+  display: none;
 }
 
 #navbar li a:hover,
@@ -70,29 +92,59 @@ body {
   bottom: -4px;
 }
 
-#fe-box {
+.fe-box {
   box-shadow: 20px 20px 43px rgba(0, 0, 0, 0.03);
 }
 
-#fe-box:hover {
+.fe-box:hover {
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
 
-#pro {
+.pro1, .pro2 {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
 }
 
-#pro1, #pro2:hover {
+.pro1:hover,
+.pro2:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-.bar{
+#navbar.bar {
   right: 0%;
-  transition : 800ms ease;
+  transition: 800ms ease;
 }
 
-.closeSmooth{
-  transition : 800ms ease;
+.closeSmooth {
+  transition: 800ms ease;
 }
 
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -45%;
+    height: 100vh;
+    width: 45%;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 10px 10px;
+  }
 
+  #mobile {
+    display: flex;
+  }
+
+  #close {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+}
