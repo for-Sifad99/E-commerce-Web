@@ -21,48 +21,54 @@
 
 <body class="w-full">
     <section id="header"
-    class="font-semibold flex items-center justify-between px-2 py-5 lg:px-20 sm:px-14 z-[999] sticky bg-[#E3E6F3] top-0 left-0">
-      <a href="#"><img src="./img/logo.png" class="logo" alt=""></img></a>
-
+    class="font-semibold flex items-center justify-between px-2 py-5 lg:px-20 sm:px-14 pr-3 z-[999] sticky bg-[#E3E6F3] top-0 left-0">
+    <a href="#"><img src="./img/logo.png" class="logo" alt=""></img></a>
     <div>
       <ul id="navbar" class="flex tems-center justify-center text-[#1a1a1a] font-semibold">
         <li class="px-5">
-          <a class="active" href="index.html">Home</a></li>
+          <a class="active" href="index.html">Home</a>
+        </li>
           
         <li class="px-5">
-          <a href="shop.html">Shop</a></li>
+          <a href="shop.html">Shop</a>
+        </li>
           
         <li class="px-5">
-          <a href="blog.html">Blog</a></li>
+          <a href="blog.html">Blog</a>
+        </li>
           
         <li class="px-5">
-          <a href="about.html">About</a></li>
+          <a href="about.html">About</a>
+        </li>
           
         <li class="px-5">
-          <a href="contact.html">Contact</a></li>
+          <a href="contact.html">Contact</a>
+        </li>
           
         <li class="hidden px-5 lg:block md:block">
-          <a href=" card.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          <a href=" card.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        </li>
             
         <a href="#"><i  id="close" class="fa-solid fa-xmark text-2xl text-[#222]"></i></a>
       </ul>
     </div>
-          <div id="mobile" class="items-center space-x-3 px-5  text-2xl text-[#1a1a1a]">
+          <div id="mobile" class="items-center space-x-3 text-2xl text-[#1a1a1a]">
             <a href=" card.html"><i class="fa-solid fa-bag-shopping"></i></a>
             <i id="bar" class= "fa-solid fa-bars"></i>
         </div>
   </section>
   
 <section id="hero"
-  class="text-[#222] font-semibold bg-[url('./img/hero4.png')] bg-cover bg-no-repeat bg-[top_20%_right_20%] 
-  sm:bg-[top_25%_right_25%] md:bg-[top_25%_right_20%] lg:bg-[top_20%_right_20%] h-[50vh] sm:h-[65vh] md:h-[70vh]
-  lg:h-[80vh] xl:h-[90vh] w-full px-4sm:px-10 lg:px-16flex flex-col justify-center">
+  class="text-[#222] font-semibold bg-[url('./img/hero4.png')] bg-cover bg-no-repeat
+  bg-[top_20%_right_20%] sm:bg-[top_20%_right_25%] md:bg-[top_25%_right_20%] 
+  lg:bg-[top_18%_right_20%] h-[50vh] sm:h-[65vh] md:h-[70vh]
+  lg:h-[80vh] xl:h-[90vh] w-full px-4 sm:px-10 lg:px-16 sm:py-10 md:py-24 py-0 flex flex-col justify-center sm:pl-14 lg:pl-20 md:pl-14 pl-3">
 
-    <h4 class="mb-4 text-[20px] sm:ml-6 ml-0">Trade-in-offer</h4>
-    <h2 class="text-[46px] leading-[54px] sm:ml-6 ml-0">Super value deals</h2>
-    <h1 class="text-[#088178] text-5xl leading-[64px] sm:ml-6 ml-0">On all products</h1>
-    <p class="text-base text-[#465b52] mt-[15px] mb-5 font-normal sm:ml-6 ml-0">Save more with coupons & up to 70% off!</p>
-    <button class="flex justify-start bg-[url(./img/button.png)] bg-no-repeat bg-transparent text-[#088178] pt-4 pb-3 pl-17 text-[15px] font-bold cursor-pointer">Shop Now</button>
+    <h4 class="lg:mb-2 lg:text-xl md:text-lg text-sm">Trade-in-offer</h4>
+    <h2 class="lg:text-[46px] md:text-4xl text-3xl leading-[50px] lg:leading-[54px]">Super value deals</h2>
+    <h1 class="text-[#088178] lg:text-5xl md:text-4xl text-[30px] leading-5 lg:leading-[64px]">On all products</h1>
+    <p class="lg:text-base text-xs text-[#465b52] mt-[15px] mb-5 font-normal">Save more with coupons & up to 70% off!</p>
+    <button class="flex justify-start bg-[url(./img/button.png)] bg-no-repeat lg:w-56 md:w-56 w-36 bg-cover bg-transparent text-[#088178] lg:pt-4 md:pt-4 sm:pt-3 pt-2 lg:pb-3 md:pb-3 sm:pb-2 pb-1 lg:pl-17 md:pl-17 pl-10  lg:text-[15px] md:text-[15px] sm:text-sm text-xs font-bold cursor-pointer">Shop Now</button>
   </section>
 
   <section class="flex flex-wrap justify-center px-6 py-16 gap-x-6 gap-y-6">
@@ -245,7 +251,8 @@
     </div>
   </section>
 
-  <section id="banner" class="flex flex-col items-center justify-center text-center my-10 bg-[url(./img/banner/b2.jpg)] w-full h-[40vh] bg-cover bg-center">
+  <section id="banner" class="flex flex-col items-center justify-center
+  text-center my-10 bg-[url(./img/banner/b2.jpg)] w-full h-[40vh] bg-cover bg-center">
     <h4 class="font-bold"><span class="text-base text-[#fff]">Repair Services</span></h4>
     <h2 class=" py-[10px] font-bold"><span class="text-3xl text-[#fff]">Up to <span class="text-[#ef3636]">70% off</span> - All t-Shirts & Accessories</span></h2>
     <button class="text-sm font-semibold py-4 px-7 text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-[#088178] rounded-[4px]  cursor-pointer transition duration-200 ease-in-out">Explore More</button>
@@ -426,7 +433,8 @@
     </div>
   </section>
   
-  <section id="newsletter" class="flex flex-wrap items-center justify-between bg-[url(./img/banner/b14.png)] bg-no-repeat bg-[20%_30%] bg-[#041e42] px-20 py-10 my-10">
+  <section id="newsletter" class="flex flex-wrap items-center justify-between
+  bg-[url(./img/banner/b14.png)] bg-no-repeat bg-[20%_30%] bg-[#041e42] px-20 py-10 my-10">
     <div>
       <h4 class="font-bold"><span class="text-[22px] text-[#fff]">Sign Up For Newsletters</span></h4>
       <p class="font-semibold"><span class="text-sm text-[#818ea0]">Get E-mail updates about our latest shop and <span class="text-[#ffbd27]">spacial offers.</span></span></p>
@@ -489,5 +497,4 @@
   
   <script src="./script/script.js"></script>
 </body>
-
 </html> 
